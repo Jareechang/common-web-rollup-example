@@ -1,0 +1,16 @@
+{
+  "name": "scripty",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "build": "cross-env-shell \"rm -rf ./dist\" && rollup -c"
+  },
+  "devDependencies": {
+    "cross-env": "^6.0.3"
+  },
+  "dependencies": {
+    "@common-web/rollup": "1.x.x",
+    "@common-web/ts-config": "1.x.x"
+  }
+}
