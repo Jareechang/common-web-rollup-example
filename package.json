@@ -4,12 +4,15 @@
   "main": "index.js",
   "license": "MIT",
   "scripts": {
-    "build": "cross-env-shell \"rm -rf ./dist\" && rollup -c"
+    "build": "cross-env-shell \"rm -rf ./dist\" && rollup -c",
+    "prettier": "prettier --write -l \"src/**/*.ts\""
   },
   "devDependencies": {
-    "cross-env": "^6.0.3"
+    "cross-env": "^6.0.3",
+    "prettier": "^1.19.1"
   },
   "dependencies": {
+    "@common-web/prettier": "^1.0.5",
     "@common-web/rollup": "1.x.x",
     "@common-web/ts-config": "1.x.x"
   }

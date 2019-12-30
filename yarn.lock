@@ -125,6 +125,11 @@
     lodash "^4.17.13"
     to-fast-properties "^2.0.0"
 
+"@common-web/prettier@^1.0.5":
+  version "1.0.5"
+  resolved "https://registry.yarnpkg.com/@common-web/prettier/-/prettier-1.0.5.tgz#96def2d907d524d5a7edb9a2060f5d353475ea22"
+  integrity sha512-XllsjY15AbE4gmfxOh+Xj+ztZKjjugZfT361VIvadPwoJ25qFSA9pmm4kx7FoCKfsVpqDVPDpescOJzRdNXzcg==
+
 "@common-web/rollup@1.x.x":
   version "1.0.14"
   resolved "https://registry.yarnpkg.com/@common-web/rollup/-/rollup-1.0.14.tgz#47cf639fac83021a4ce9c806579e8c405afabed0"
@@ -812,6 +817,11 @@ prelude-ls@~1.1.2:
   version "1.1.2"
   resolved "https://registry.yarnpkg.com/prelude-ls/-/prelude-ls-1.1.2.tgz#21932a549f5e52ffd9a827f570e04be62a97da54"
   integrity sha1-IZMqVJ9eUv/ZqCf1cOBL5iqX2lQ=
+
+prettier@^1.19.1:
+  version "1.19.1"
+  resolved "https://registry.yarnpkg.com/prettier/-/prettier-1.19.1.tgz#f7d7f5ff8a9cd872a7be4ca142095956a60797cb"
+  integrity sha512-s7PoyDv/II1ObgQunCbB9PdLmUcBZcnWOcxDh7O0N/UwDEsHyqkW+Qh28jW+mVuCdx7gLB0BotYI1Y6uI9iyew==
 
 progress@^2.0.0:
   version "2.0.3"
