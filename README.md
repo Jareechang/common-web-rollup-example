@@ -1,4 +1,4 @@
-# Common web Rollup example 
+# @common-web/rollup example 
 
 This repo demonstrates usage of [@common-web/rollup](https://github.com/Jareechang/common-web/tree/master/packages/rollup).
 
@@ -10,3 +10,13 @@ It simply builds **typescript** `src` into single or multiple dist:
 - **ESM** (ES Module)
 
 **Note:** Can be configured further, please visit [Rollup configuration](https://rollupjs.org/guide/en/#configuration-files).
+
+
+### Commands 
+
+```sh
+
+// Builds the source files
+yarn run build
+
+```
